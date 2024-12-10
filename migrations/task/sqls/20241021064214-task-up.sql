@@ -14,6 +14,7 @@ CREATE TABLE "SKILL" (
   "created_at" timestamp NOT NULL DEFAULT (CURRENT_TIMESTAMP)
 );
 
+
 INSERT INTO "SKILL" (name) VALUES ('重訓'), ('瑜伽'), ('有氧運動'), ('復健訓練');
 
 CREATE TABLE "COACH" (
